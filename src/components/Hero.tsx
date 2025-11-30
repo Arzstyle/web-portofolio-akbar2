@@ -1,3 +1,4 @@
+import fotoAkbar from '../assets/Foto M Akbar.jpg';
 import { useLanguage } from '../contexts/LanguageContext';
 import { useTheme } from '../contexts/ThemeContext';
 import { ArrowRight, Code2 } from 'lucide-react';
@@ -52,7 +53,7 @@ export default function Hero() {
                 'border-pink-200'
               }`}>
                 <img
-                  src="/src/assets/Foto M Akbar.jpg"
+                  src={fotoAkbar}
                   alt="Muhamad Akbar Rizky Saputra"
                   className="w-full h-full object-cover"
                 />
